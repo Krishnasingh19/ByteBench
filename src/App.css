@@ -3,11 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --editor-background-color: #0A001F; 
+  --editor-background-color: #0A001F;
 }
 
-.CodeMirror *{
-  font-family:'Fira Code';
+.CodeMirror * {
+  font-family: 'Fira Code', monospace;
   font-weight: 100;
   font-size: 18px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 640px) {
+  :root {
+    --editor-background-color: #1A002F; /* Change the background color for small screens */
+  }
+
+  .CodeMirror * {
+    font-size: 14px; /* Adjust font size for small screens */
+  }
 }
