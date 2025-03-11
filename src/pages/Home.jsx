@@ -109,7 +109,7 @@ const Home = () => {
               <a
                 href="https://www.linkedin.com/in/krishna-singh-b05b7723a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
-                title="This application is created by Aman Shrivastav"
+                title="This application is created by Krishna Singh"
               >
                 <img src={logo} className="h-8" alt="LinkedIn Logo" />
               </a>
